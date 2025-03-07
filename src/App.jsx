@@ -15,8 +15,16 @@ function App() {
       .then(data => setMemeArray(data.data.memes))
         
     }, [])
-
-    console.log(memeArray)
+  
+  
+  function getMemeImage() {
+    const randomNumber = Math.floor(Math.random() *memeArray.length)
+    const newUrl = memeArray[randomNumber].url
+    setMeme(prevMeme => (
+      {...prevMeme, 
+      imagUrl:newUrl}
+    ))
+  }
 
   function handleChange(event) {
     const {value, name} = event.currentTarget
@@ -50,7 +58,7 @@ function App() {
                         value={meme.bottomText}
                     />
                 </label>
-                <button>Get a new meme image 🖼</button>
+                <button onClick={getMemeImage}>Get a new meme image 🖼</button>
             </div>
             <div className="meme">
                 <img src={meme.imagUrl} />
