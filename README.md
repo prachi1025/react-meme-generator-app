@@ -1,12 +1,20 @@
-# React + Vite
+# Meme Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Meme Generator](https://img.shields.io/badge/Made%20with-React-blue.svg)
 
-Currently, two official plugins are available:
+A simple **Meme Generator App** built using **React.js** to understand core React concepts such as state management, event handling, API fetching, and component structuring.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Fetch random meme images from an API.
+- Add custom text (top and bottom) to the meme.
+- Dynamic updates using React state.
+- Simple and clean UI for a better user experience.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+
+- **React.js** (useState, useEffect, components, props)
+- **CSS** (for styling the UI)
+- **Fetch API** (to get meme images from an external API)
+
+## ✅ App Deployed At [Meme Generator App](https://prachi1025.github.io/react-meme-generator-app/) 
